@@ -14,7 +14,10 @@ environment:
 
 dependencies:
   audioplayers: ^5.0.0
-  flame: ^1.9.1
+  flame:
+    git:
+      url: https://github.com/shuhbam-jify/flame.git
+      path: packages/flame/
   flutter:
     sdk: flutter
   synchronized: ^3.1.0
