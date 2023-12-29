@@ -1,0 +1,8 @@
+# melos_managed_dependency_overrides: flame,flame_forge2d,flame_lint
+dependency_overrides:
+  flame:
+    path: ../../../packages/flame
+  flame_forge2d:
+    path: ../../../packages/flame_forge2d
+  flame_lint:
+    path: ../../../packages/flame_lint

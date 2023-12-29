@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: flame,flame_lint
+dependency_overrides:
+  flame:
+    path: ../flame
+  flame_lint:
+    path: ../flame_lint

@@ -1,0 +1,28 @@
+# melos_managed_dependency_overrides: flame,flame_audio,flame_forge2d,flame_isolate,flame_lint,flame_lottie,flame_noise,flame_spine,flame_svg,flame_tiled,padracing,rogue_shooter,trex_game
+dependency_overrides:
+  flame:
+    path: ../packages/flame
+  flame_audio:
+    path: ../packages/flame_audio
+  flame_forge2d:
+    path: ../packages/flame_forge2d
+  flame_isolate:
+    path: ../packages/flame_isolate
+  flame_lint:
+    path: ../packages/flame_lint
+  flame_lottie:
+    path: ../packages/flame_lottie
+  flame_noise:
+    path: ../packages/flame_noise
+  flame_spine:
+    path: ../packages/flame_spine
+  flame_svg:
+    path: ../packages/flame_svg
+  flame_tiled:
+    path: ../packages/flame_tiled
+  padracing:
+    path: games/padracing
+  rogue_shooter:
+    path: games/rogue_shooter
+  trex_game:
+    path: games/trex
