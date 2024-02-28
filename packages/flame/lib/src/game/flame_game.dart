@@ -276,6 +276,7 @@ class FlameGame<W extends World> extends ComponentTreeRoot
         }
       case AppLifecycleState.paused:
       case AppLifecycleState.detached:
+      case AppLifecycleState.hidden:
         if (pauseWhenBackgrounded && !paused) {
           pauseEngine();
           _pausedBecauseBackgrounded = true;
